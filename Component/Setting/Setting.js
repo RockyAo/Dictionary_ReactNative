@@ -18,16 +18,19 @@ import {
     View
 } from 'react-native';
 
-var BackgroundStyle = require('.././CommonStyle/BackgroundStyle');
+var BackgroundStyle = require('../CommonStyle/BackgroundStyle');
+var SettingCell = require('./SettingCell');
 
 class Setting extends Component {
     render() {
         return (
             <View style={[styles.container,BackgroundStyle.commonBackgroundStyle]}>
-                <Text>Setting</Text>
+                <SettingCell titleString="清除缓存"/>
             </View>
         );
     }
+
+
 }
 
 const styles = StyleSheet.create({
