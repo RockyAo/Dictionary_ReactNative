@@ -12,11 +12,13 @@ import {
   View
 } from 'react-native';
 
+var Main = require('./Component/Main/Main');
+
 class Dictionary_ReactNative extends Component {
   render() {
     return (
       <View style={styles.container}>
-
+          <Main />
       </View>
     );
   }
@@ -27,17 +29,6 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
   },
 });
 
