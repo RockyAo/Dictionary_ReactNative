@@ -2,6 +2,9 @@
  * Created by ZCBL on 16/9/30.
  */
 /**
+ * Created by ZCBL on 16/9/30.
+ */
+/**
  * Sample React Native App
  * https://github.com/facebook/react-native
  * @flow
@@ -17,8 +20,7 @@ import {
 
 var BackgroundStyle = require('.././CommonStyle/BackgroundStyle');
 
-
-class Main extends Component {
+class Setting extends Component {
     render() {
         return (
             <View style={[styles.container,BackgroundStyle.commonBackgroundStyle]}>
@@ -38,4 +40,4 @@ const styles = StyleSheet.create({
 
 });
 
-module.exports = Main;
+module.exports = Setting;
