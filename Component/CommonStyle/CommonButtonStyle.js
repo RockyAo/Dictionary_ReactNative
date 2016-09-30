@@ -12,7 +12,6 @@ const CommonButtonStyle = StyleSheet.create({
         backgroundColor:'rgb(0,132,255)',
     },
 
-
 });
 
 module.exports = CommonButtonStyle;

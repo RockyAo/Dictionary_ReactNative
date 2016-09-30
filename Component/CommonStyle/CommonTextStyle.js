@@ -10,10 +10,21 @@ import {
 
 const CommonTextStyle = StyleSheet.create({
 
-    CommonTextStyle : {
+    mainFontColor : {
 
+        color:'rgb(25,25,25)',
+    },
 
+    normalColor:{
+
+        color:'rgb(102,102,102)',
+    },
+
+    lowLevelFontColor:{
+
+        color:'rgb(153,153,153)',
     }
+
 });
 
 module.exports = CommonTextStyle;
