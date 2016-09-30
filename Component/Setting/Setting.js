@@ -24,7 +24,7 @@ class Setting extends Component {
     render() {
         return (
             <View style={[styles.container,BackgroundStyle.commonBackgroundStyle]}>
-
+                <Text>Setting</Text>
             </View>
         );
     }

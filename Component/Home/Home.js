@@ -26,7 +26,7 @@ class Home extends Component {
     render() {
         return (
             <View style={[styles.container,BackgroundStyle.commonBackgroundStyle]}>
-
+                <Text>home</Text>
             </View>
         );
     }

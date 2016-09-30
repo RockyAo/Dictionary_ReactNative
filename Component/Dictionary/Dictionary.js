@@ -24,7 +24,7 @@ class Dictionary extends Component {
     render() {
         return (
             <View style={[styles.container,BackgroundStyle.commonBackgroundStyle]}>
-
+                <Text>Dictionary</Text>
             </View>
         );
     }

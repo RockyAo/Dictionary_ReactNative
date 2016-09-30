@@ -23,6 +23,11 @@ const CommonTextStyle = StyleSheet.create({
     lowLevelFontColor:{
 
         color:'rgb(153,153,153)',
+    },
+
+    selectedColor:{
+
+        color:'rgb(0,132,255)'
     }
 
 });
