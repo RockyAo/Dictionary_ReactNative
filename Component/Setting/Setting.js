@@ -25,7 +25,16 @@ class Setting extends Component {
     render() {
         return (
             <View style={[styles.container,BackgroundStyle.commonBackgroundStyle]}>
-                <SettingCell titleString="清除缓存"/>
+               <View style={BackgroundStyle.commonBackgroundStyle}>
+
+                   <SettingCell titleString="清除缓存"/>
+                   <SettingCell titleString="意见反馈"/>
+                   <SettingCell titleString="关于我们"/>
+                   <SettingCell titleString="去评价"/>
+               </View>
+               <View>
+                   <SettingCell titleString="当前版本" discribeTitle="v1.0.0"/>
+               </View>
             </View>
         );
     }

@@ -10,7 +10,8 @@ import {
     AppRegistry,
     StyleSheet,
     Text,
-    View
+    View,
+    Image
 } from 'react-native';
 
 
@@ -27,12 +28,13 @@ class SettingCell extends Component {
         return (
             <View style={[styles.container,BackgroundStyle.commonBackgroundStyle]}>
                 <Text>{this.props.titleString}</Text>
+                {this._renderRightView()}
             </View>
         );
     }
 
     _renderRightView(){
-            if(this.props.discribeTilte.length > 0){
+            if(this.props.discribeTitle){
                 return(
                     <Text>{this.props.discribeTitle}</Text>
                 )
@@ -48,7 +50,9 @@ class SettingCell extends Component {
 const styles = StyleSheet.create({
     container: {
         width:width,
-        height:44
+        height:44,
+        flexDirection:'row',
+        
     },
 
 });
